@@ -217,7 +217,11 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("JOIN OUR GROUP", url="https://t.me/pdfworld"),
+                    InlineKeyboardButton("JOIN OUR CHANNEL", url="https://t.me/tamilbooksworld")
+                ],
+                [
+                    InlineKeyboardButton("JOIN OUR BACKUP CHANNEL", url="https://t.me/noolagamlibrary")
                 ]
             ]
         ),
@@ -243,11 +247,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/pdfworld"),
-                    InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/tamilbooksworld")
+                    InlineKeyboardButton("⭕️JOIN OUR GROUP⭕️", url="https://t.me/pdfworld"),
+                    InlineKeyboardButton("⭕️JOIN OUR CHANNEL⭕️", url="https://t.me/tamilbooksworld")
                 ],
                 [
-                    InlineKeyboardButton("⭕️ JOIN OUR BACKUP CHANNEL ⭕️", url="https://t.me/noolagamlibrary")
+                    InlineKeyboardButton("⭕️JOIN OUR BACKUP CHANNEL⭕️", url="https://t.me/noolagamlibrary")
                 ]
             ]
         ),
