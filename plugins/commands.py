@@ -244,7 +244,7 @@ async def help(client, message):
             [
                 [
                     InlineKeyboardButton("⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/pdfworld"),
-                    InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", callback_data="about_data")
+                    InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/tamilbooksworld")
                 ],
                 [
                     InlineKeyboardButton("⭕️ JOIN OUR BACKUP CHANNEL ⭕️", url="https://t.me/noolagamlibrary")
